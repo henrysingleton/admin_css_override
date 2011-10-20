@@ -1,0 +1,70 @@
+/*-----------------------------------------------------------------------------
+	Stylesheet for 'Admin CSS Override' extension;
+	CSS rules placed here will override Symphony Admin styles;
+-----------------------------------------------------------------------------*/
+
+#nav {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+	border-bottom: 1px solid #b6b6b6;
+	border-top: 1px solid #b6b6b6;
+	padding: 0 10px;
+}
+
+#nav li.active {
+	background: #3b3b3b; /* Old browsers */
+	background: -moz-linear-gradient(top, #3b3b3b 0%, #2d2d2d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b3b3b), color-stop(100%,#2d2d2d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #3b3b3b 0%,#2d2d2d 100%); /* Chrome10+,Safari5.1+ */
+}
+
+#nav li:hover {
+	background: rgb(0,113,188); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(0,113,188,1) 0%, rgba(1,89,148,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,113,188,1)), color-stop(100%,rgba(1,89,148,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,113,188,1) 0%,rgba(1,89,148,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+
+#nav li:hover ul {
+	top: 30px;
+	left: 0;
+}
+
+#nav li ul li a:hover {
+	background: #0071bc;
+}
+
+#header {
+	background: #f2f2f2;
+}
+
+#header h1 {
+	background: url(assembler-logo.png) no-repeat right 15px;
+	padding: 15px 10px 10px 10px ;
+}
+#header h1 a {
+	text-shadow: none;
+	color: #333333;
+	display: inline-block;
+	background: #d9d7d7 url(title-icon.png) no-repeat 8px 8px;
+	padding: 10px 10px 10px 45px;
+	border-radius: 5px;
+	border: 1px solid #ffffff;
+	box-shadow:inset 0 0 5px rgba(0,0,0,.2);
+	
+}
+
+#header h1 a:hover {
+	color: white;
+	background: #0071bc url(title-icon.png) no-repeat 8px -142px;
+}
+
+#footer {
+	background: #1d1d1d;
+}
+
+#blueprints-datasources select[multiple].filtered {
+	height: auto;
+}
